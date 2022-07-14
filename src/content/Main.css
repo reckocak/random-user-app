@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+.img{
+    border-radius: 50px ;
+    margin-left: 1rem;
+    
+}
+
+.kleinImg{
+    width: 40px;
+    float: left;
+    padding-left: 1rem;
+    margin-left: 1rem;
+    
+}
+
+.card{
+    width: 20rem;
+    height: 20rem;
+    font-size: 14px;
+    background-color: rgb(150, 214, 213);
+    margin: auto;
+    margin-top: 8rem;
+    border: 1px solid ;
+    box-shadow: 5px 5px 0px  rgb(70, 150, 215), 10px 10px 0px rgb(125, 179, 224), 15px 15px 0px rgb(188, 217, 242), 20px 20px 0px rgb(236, 240, 246), 50px 50px 45px rgb(73, 164, 203) inset;
+}
+
+.div{
+    margin: 0.4rem .4rem;
+    
+}
+.div1{
+    text-align:center;
+    padding-left: 1rem;
+}
+
+.div2{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.div2 p{
+    width: 100%;
+    margin-top:2rem;
+}
+.div5{margin-top: 3em;}
+
+.btn{
+    margin-top: 3rem;
+    box-shadow: 0 0 45px rgb(73, 164, 203) inset, 0 0 1px 4px rgb(86, 169, 213);
+    border-radius: 10%;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+.btn:hover {
+        box-shadow: 0 0 15px rgb(130, 134, 136) inset, 0 0 5px 2px rgb(177, 191, 200);
+    }
